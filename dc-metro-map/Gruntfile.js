@@ -42,7 +42,7 @@ module.exports = function(grunt) {
         tasks: ['jshint:lib_test', 'nodeunit']
       }
     }
-  });;
+  });
 
   // These plugins provide necessary tasks.
   grunt.loadNpmTasks('grunt-contrib-nodeunit');
